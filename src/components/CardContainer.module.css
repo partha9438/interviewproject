@@ -1,0 +1,113 @@
+.avatarsChild,
+.userIcon {
+  position: absolute;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.userIcon {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-41xl);
+  object-fit: cover;
+}
+.avatarsChild {
+  height: 16.67%;
+  width: 16.67%;
+  top: 78.33%;
+  right: 5%;
+  bottom: 5%;
+  left: 78.33%;
+  display: none;
+}
+.avatars {
+  position: relative;
+  border-radius: var(--br-29xl);
+  width: 96px;
+  height: 96px;
+  flex-shrink: 0;
+}
+.clients,
+.issFacilityServices {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+}
+.clients {
+  font-size: var(--typeface-nunito-sans-caption1-size);
+  line-height: 20px;
+  color: var(--secondary-iss-dark-blue-501);
+}
+.avatarsParent,
+.issFacilityServicesParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.avatarsParent {
+  gap: var(--gap-base);
+}
+.iconSet {
+  position: relative;
+  width: 12px;
+  height: 12px;
+  flex-shrink: 0;
+  overflow: hidden;
+  display: none;
+}
+.button1 {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 20px;
+}
+.button,
+.button2 {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-base);
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-xs);
+}
+.button {
+  background-color: var(--primary-persian-blue-25);
+}
+.button2 {
+  color: var(--secondary-iss-dark-blue-501);
+}
+.addCard,
+.buttonParent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.buttonParent {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: var(--gap-5xs);
+  text-align: left;
+  font-size: var(--typeface-nunito-sans-caption1-size);
+  color: var(--primary-persian-blue-1001);
+}
+.addCard {
+  flex: 1;
+  border-radius: var(--br-xs);
+  background-color: var(--white);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  padding: var(--padding-5xl) var(--padding-5xl) var(--padding-base);
+  align-items: center;
+  gap: var(--gap-13xl);
+  text-align: center;
+  font-size: var(--typeface-nunito-sans-subtitle-11-size);
+  color: var(--secondary-iss-dark-blue-1001);
+  font-family: var(--typeface-nunito-sans-subtitle-11);
+}

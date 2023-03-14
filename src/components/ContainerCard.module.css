@@ -1,0 +1,127 @@
+.iconBlock,
+.iconSet {
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.iconSet {
+  position: relative;
+  width: 40px;
+  height: 40px;
+}
+.iconBlock {
+  border-radius: var(--br-81xl);
+  background-color: var(--grey-light-1001);
+  width: 96px;
+  height: 96px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.user {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-41xl);
+}
+.avatarsChild {
+  position: absolute;
+  height: 16.67%;
+  width: 16.67%;
+  top: 78.33%;
+  right: 5%;
+  bottom: 5%;
+  left: 78.33%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  display: none;
+}
+.avatars {
+  position: relative;
+  border-radius: var(--br-29xl);
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+  display: none;
+}
+.clients,
+.div {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+}
+.div {
+  font-size: var(--typeface-nunito-sans-caption1-size);
+  line-height: 20px;
+}
+.clientsParent,
+.iconBlockParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.iconBlockParent {
+  gap: var(--gap-base);
+}
+.button1 {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 20px;
+}
+.suffixIcon {
+  position: relative;
+  width: 12px;
+  height: 12px;
+  flex-shrink: 0;
+  overflow: hidden;
+  display: none;
+}
+.button {
+  background-color: var(--grey-light-751);
+}
+.button,
+.button2 {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-base);
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-xs);
+}
+.addCard,
+.buttonParent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.buttonParent {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: var(--gap-5xs);
+  text-align: left;
+  font-size: var(--typeface-nunito-sans-caption1-size);
+}
+.addCard {
+  flex: 1;
+  border-radius: var(--br-xs);
+  background-color: var(--grey-light-501);
+  padding: var(--padding-5xl) var(--padding-5xl) var(--padding-base);
+  align-items: center;
+  gap: var(--gap-13xl);
+  text-align: center;
+  font-size: var(--typeface-nunito-sans-subtitle-11-size);
+  color: var(--grey-dark-1001);
+  font-family: var(--typeface-nunito-sans-subtitle-11);
+}

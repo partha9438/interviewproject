@@ -1,0 +1,294 @@
+.image1Icon {
+  position: relative;
+  width: 220px;
+  height: 103.6px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.enterYourUsername,
+.welcome {
+  align-self: stretch;
+  position: relative;
+}
+.welcome {
+  font-weight: 800;
+}
+.enterYourUsername {
+  font-size: var(--typeface-nunito-sans-caption1-size);
+  line-height: 20px;
+  color: var(--secondary-iss-dark-blue-501);
+}
+.welcomeParent {
+  width: 567px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.iconSet {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.input,
+.label {
+  flex: 1;
+  position: relative;
+}
+.label {
+  letter-spacing: 0.01em;
+}
+.input {
+  font-size: var(--typeface-nunito-sans-caption1-size);
+  line-height: 20px;
+  text-align: right;
+  display: none;
+}
+.iconSet1,
+.inputField {
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.iconSet1 {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  display: none;
+}
+.inputField {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  background-color: var(--white);
+  border: 1px solid var(--grey-light-1001);
+  box-sizing: border-box;
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-base);
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  font-size: var(--typeface-nunito-sans-subtitle-21-size);
+}
+.typeInputDescription {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 18px;
+  color: var(--secondary-iss-dark-blue-501);
+  display: none;
+}
+.iconSet2 {
+  position: relative;
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.errorMessageHere {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 18px;
+}
+.error {
+  border-radius: var(--br-9xs);
+  background-color: var(--red-251);
+  overflow: hidden;
+  display: none;
+  flex-direction: row;
+  padding: var(--padding-9xs) var(--padding-5xs);
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  color: var(--red-1001);
+}
+.textField,
+.textFieldParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.textField {
+  width: 567px;
+  gap: var(--gap-5xs);
+}
+.textFieldParent {
+  gap: var(--gap-xs);
+}
+.prefixIcon {
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+  overflow: hidden;
+  display: none;
+}
+.button1,
+.prefixIcon {
+  position: relative;
+}
+.button,
+.button2 {
+  border-radius: var(--br-5xs);
+  width: 567px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.button {
+  background-color: var(--primary-persian-blue-125);
+  height: 54px;
+  padding: var(--padding-base) var(--padding-5xl);
+}
+.button2 {
+  height: 49px;
+  padding: var(--padding-mini) var(--padding-5xl);
+  font-size: var(--typeface-nunito-sans-caption1-size);
+  color: var(--secondary-iss-dark-blue-501);
+}
+.buttonParent {
+  align-items: flex-start;
+  font-size: var(--typeface-nunito-sans-subtitle-21-size);
+  color: var(--white);
+}
+.buttonParent,
+.frameGroup,
+.frameParent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frameGroup {
+  width: 567px;
+  align-items: flex-start;
+  gap: var(--gap-base);
+  text-align: left;
+  font-size: var(--typeface-nunito-sans-caption1-size);
+  color: var(--grey-dark-1501);
+}
+.frameParent {
+  align-items: center;
+  gap: var(--gap-5xl);
+}
+.enterYourUsername1 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--typeface-nunito-sans-subtitle-21-size);
+  letter-spacing: 0.01em;
+  color: var(--secondary-iss-dark-blue-501);
+}
+.iconSet6 {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.iconSet7,
+.input2 {
+  position: relative;
+  display: none;
+}
+.input2 {
+  flex: 1;
+  letter-spacing: 0.01em;
+  color: var(--secondary-iss-dark-blue-1001);
+}
+.iconSet7 {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.button4,
+.inputField2 {
+  border-radius: var(--br-5xs);
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+}
+.inputField2 {
+  align-self: stretch;
+  background-color: var(--white);
+  border: 1px solid var(--grey-light-751);
+  height: 48px;
+  overflow: hidden;
+  padding: var(--padding-xs) var(--padding-base);
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  font-size: var(--typeface-nunito-sans-subtitle-21-size);
+}
+.button4 {
+  background-color: var(--primary-persian-blue-1001);
+  width: 567px;
+  height: 54px;
+  padding: var(--padding-base) var(--padding-5xl);
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.frameContainer {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.termsOfUse {
+  position: relative;
+  line-height: 20px;
+}
+.frameParent2,
+.termsOfUseWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent2 {
+  gap: var(--gap-5xl);
+}
+.punctualiti2022All {
+  position: relative;
+  letter-spacing: 0.01em;
+}
+.punctualiti2022AllRightsRWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--typeface-nunito-sans-body-31-size);
+}
+.frameParent1,
+.image1Parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.frameParent1 {
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  text-align: left;
+  font-size: var(--typeface-nunito-sans-caption1-size);
+  color: var(--sand-1001);
+}
+.image1Parent {
+  position: absolute;
+  top: 0;
+  left: 120px;
+  height: 1080px;
+  padding: var(--padding-29xl) 0;
+  box-sizing: border-box;
+  justify-content: space-between;
+  text-align: center;
+  font-size: var(--typeface-nunito-sans-headline-h4-size);
+  color: var(--secondary-iss-dark-blue-1001);
+  font-family: var(--typeface-nunito-sans-subtitle-11);
+}

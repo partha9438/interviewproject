@@ -1,0 +1,52 @@
+.frameChild,
+.frameItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--grey-light-501);
+  width: 120px;
+  height: 84px;
+}
+.frameItem {
+  top: 22px;
+  left: 10px;
+  border-radius: var(--br-9xs);
+  background-color: var(--primary-persian-blue-1001);
+  width: 32px;
+  height: 40px;
+}
+.radioBtn,
+.rectangleParent {
+  position: relative;
+  width: 120px;
+  height: 84px;
+  flex-shrink: 0;
+}
+.radioBtn {
+  border-radius: var(--br-base);
+  border: 2px solid var(--grey-light-1001);
+  box-sizing: border-box;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+.title {
+  position: relative;
+  line-height: 20px;
+}
+.frameParent,
+.radioButton {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.frameParent {
+  flex-direction: column;
+  text-align: left;
+  font-size: var(--typeface-nunito-sans-caption1-size);
+  color: var(--secondary-iss-dark-blue-1001);
+  font-family: var(--typeface-nunito-sans-subtitle-11);
+}

@@ -1,0 +1,56 @@
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--primary-persian-blue-125);
+  width: 1111px;
+  height: 1080px;
+}
+.frameItem {
+  position: absolute;
+  top: 107.79px;
+  left: 175px;
+  width: 781px;
+  height: 643.69px;
+}
+.solutionForAsset {
+  position: relative;
+  font-weight: 800;
+}
+.loremIpsumDolor {
+  position: relative;
+  font-size: var(--typeface-nunito-sans-subtitle-21-size);
+  letter-spacing: 0.01em;
+  color: var(--primary-persian-blue-25);
+  text-align: center;
+  display: inline-block;
+  width: 713px;
+}
+.title {
+  position: absolute;
+  top: 776px;
+  left: 209px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-11xs);
+}
+.rectangleParent {
+  position: absolute;
+  top: 0;
+  left: 809px;
+  width: 1111px;
+  height: 1080px;
+}
+.themeSetuppreviewPage {
+  position: relative;
+  background-color: var(--white);
+  width: 100%;
+  height: 1080px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--typeface-nunito-sans-headline-h4-size);
+  color: var(--white);
+  font-family: var(--typeface-nunito-sans-subtitle-11);
+}

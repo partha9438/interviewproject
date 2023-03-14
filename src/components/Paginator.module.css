@@ -1,0 +1,93 @@
+.div {
+  position: relative;
+  letter-spacing: 0.01em;
+}
+.paginationBase {
+  border-radius: var(--br-5xs);
+  background-color: var(--primary-persian-blue-1001);
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  padding: var(--padding-5xs);
+  box-sizing: border-box;
+  color: var(--white);
+}
+.pages,
+.paginationBase,
+.paginationBase1 {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.paginationBase1 {
+  border-radius: var(--br-5xs);
+  background-color: var(--white);
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  padding: var(--padding-5xs);
+  box-sizing: border-box;
+}
+.pages {
+  width: 355px;
+  gap: var(--gap-5xs);
+}
+.iconSet {
+  position: relative;
+  width: 12px;
+  height: 12px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.button {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 20px;
+}
+.suffixIcon {
+  position: relative;
+  width: 12px;
+  height: 12px;
+  flex-shrink: 0;
+  overflow: hidden;
+  display: none;
+}
+.nextButton,
+.previousButton {
+  border-radius: var(--br-5xs);
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-base);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-xs);
+}
+.nextButton {
+  background-color: var(--grey-light-501);
+  color: var(--secondary-iss-dark-blue-501);
+}
+.previousButtonParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  font-size: var(--typeface-nunito-sans-caption1-size);
+  color: var(--grey-dark-1001);
+}
+.pagination {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xl);
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  font-size: var(--typeface-nunito-sans-body-31-size);
+  color: var(--secondary-iss-dark-blue-501);
+  font-family: var(--typeface-nunito-sans-subtitle-11);
+}

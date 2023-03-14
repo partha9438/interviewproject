@@ -1,0 +1,70 @@
+.b {
+  position: relative;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+}
+.div,
+.step1 {
+  flex-shrink: 0;
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.div {
+  border-radius: var(--br-xs);
+  width: 24px;
+  height: 24px;
+  flex-direction: column;
+  padding: var(--padding-11xs);
+}
+.step1 {
+  height: 67px;
+  flex-direction: row;
+  padding: var(--padding-5xl) var(--padding-13xl);
+  gap: var(--gap-9xs);
+}
+.indicator {
+  align-self: stretch;
+  position: relative;
+  background-color: var(--primary-persian-blue-1001);
+  height: 2px;
+  flex-shrink: 0;
+}
+.step {
+  flex: 1;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.indicator1 {
+  align-self: stretch;
+  position: relative;
+  background-color: var(--grey-light-501);
+  height: 2px;
+  flex-shrink: 0;
+}
+.step2,
+.stepsclientMasteraddClient {
+  background-color: var(--white);
+  display: flex;
+  justify-content: flex-start;
+}
+.step2 {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  color: var(--grey-dark-1501);
+}
+.stepsclientMasteraddClient {
+  align-self: stretch;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-start;
+  text-align: left;
+  font-size: var(--typeface-nunito-sans-caption1-size);
+  color: var(--primary-persian-blue-1001);
+  font-family: var(--typeface-nunito-sans-subtitle-11);
+}

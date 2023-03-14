@@ -1,0 +1,79 @@
+.checkBox1 {
+  position: relative;
+  border-radius: var(--br-9xs);
+  border: 2px solid var(--grey-light-1001);
+  box-sizing: border-box;
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.title {
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+}
+.checkBox {
+  width: 413.33px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.checkBox3 {
+  position: relative;
+  border-radius: var(--br-9xs);
+  border: 2px solid var(--grey-light-1001);
+  box-sizing: border-box;
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.checkBox2,
+.checkBox6 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+}
+.checkBox2 {
+  display: flex;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.checkBox6 {
+  display: none;
+}
+.checkBox12,
+.checkBox6,
+.checkBoxParent,
+.moduleSetup {
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.checkBox12 {
+  align-self: stretch;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  color: var(--secondary-iss-dark-blue-1001);
+}
+.checkBoxParent,
+.moduleSetup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.checkBoxParent {
+  align-self: stretch;
+  padding: 0 0 0 var(--padding-5xl);
+  color: var(--secondary-iss-dark-blue-501);
+}
+.moduleSetup {
+  padding: 0 0 var(--padding-9xs);
+  text-align: left;
+  font-size: var(--typeface-nunito-sans-caption1-size);
+  color: var(--secondary-iss-dark-blue-1001);
+  font-family: var(--typeface-nunito-sans-subtitle-11);
+}

@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700;800&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --typeface-nunito-sans-subtitle-11: "Nunito Sans";
+
+  /* font sizes */
+  --typeface-nunito-sans-subtitle-21-size: 16px;
+  --typeface-nunito-sans-headline-h4-size: 32px;
+  --typeface-nunito-sans-body-31-size: 12px;
+  --typeface-nunito-sans-caption1-size: 14px;
+  --typeface-nunito-sans-headline-h6-size: 20px;
+  --typeface-nunito-sans-headline-h5-size: 24px;
+  --typeface-nunito-sans-subtitle-11-size: 18px;
+
+  /* Colors */
+  --white: #fff;
+  --primary-persian-blue-25: #f8f9fd;
+  --primary-persian-blue-1001: #153ac7;
+  --primary-persian-blue-125: #1334b3;
+  --sand-1001: #233244;
+  --secondary-iss-dark-blue-501: #686687;
+  --red-251: #fdf5f6;
+  --red-1001: #e84754;
+  --secondary-iss-dark-blue-251: #f5f5f7;
+  --grey-light-501: #f5f5f5;
+  --grey-dark-50: #f1f1f2;
+  --grey-light-751: #ececec;
+  --secondary-iss-dark-blue-1001: #030037;
+  --grey-dark-1501: #939596;
+  --grey-light-1001: #e6e6e6;
+  --grey-dark-75: #e3e3e4;
+  --grey-dark-1001: #b8babc;
+  --sand-501: #8e96a0;
+  --primary-persian-blue-501: #e8ebf9;
+  --grey-dark-175: #252526;
+  --other-clickable: rgba(255, 255, 255, 0);
+  --color-black: #000;
+  --color-mediumaquamarine-100: #14cda2;
+  --green-1501: #12b690;
+  --red-125: #d1404c;
+  --color-dimgray: #535353;
+
+  /* Gaps */
+  --gap-11xs: 2px;
+  --gap-9xs: 4px;
+  --gap-5xl: 24px;
+  --gap-base: 16px;
+  --gap-5xs: 8px;
+  --gap-xs: 12px;
+  --gap-xl: 20px;
+  --gap-3xs: 10px;
+  --gap-12xs: 1px;
+  --gap-13xl: 32px;
+
+  /* Paddings */
+  --padding-29xl: 48px;
+  --padding-mini: 15px;
+  --padding-5xl: 24px;
+  --padding-base: 16px;
+  --padding-9xs: 4px;
+  --padding-5xs: 8px;
+  --padding-xs: 12px;
+  --padding-xl: 20px;
+  --padding-3xs: 10px;
+  --padding-13xl: 32px;
+  --padding-11xs: 2px;
+
+  /* border radiuses */
+  --br-5xs: 8px;
+  --br-9xs: 4px;
+  --br-41xl: 60px;
+  --br-5xl: 24px;
+  --br-7xs: 6px;
+  --br-base: 16px;
+  --br-xs: 12px;
+  --br-xl: 20px;
+  --br-141xl: 160px;
+  --br-29xl: 48px;
+  --br-81xl: 100px;
+
+  /* Effects */
+  --card-shadow-011: 0px 1px 5px rgba(3, 0, 55, 0.08);
+  --card-shadow-041: 0px 4px 16px rgba(3, 0, 55, 0.08);
+  --card-shadow-02: 0px 2px 5px rgba(3, 0, 55, 0.08);
+}

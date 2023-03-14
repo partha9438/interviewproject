@@ -1,0 +1,615 @@
+.addInformationAbout,
+.themeSetup {
+  align-self: stretch;
+  position: relative;
+  line-height: 120%;
+}
+.addInformationAbout {
+  font-size: var(--typeface-nunito-sans-caption1-size);
+  line-height: 20px;
+  color: var(--secondary-iss-dark-blue-501);
+}
+.themeSetupParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  font-size: var(--typeface-nunito-sans-headline-h6-size);
+}
+.iconSet {
+  position: relative;
+  border-radius: var(--br-xl);
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.input,
+.input1 {
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+}
+.input1 {
+  color: var(--grey-dark-1501);
+  text-align: right;
+  display: none;
+}
+.iconSetinfo,
+.inputField {
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.iconSetinfo {
+  position: relative;
+  width: 16px;
+  height: 16px;
+}
+.inputField {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  background-color: var(--white);
+  border: 1px solid var(--grey-light-751);
+  box-sizing: border-box;
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-base);
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.typeInputDescription {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 18px;
+  color: var(--secondary-iss-dark-blue-501);
+}
+.iconSet1 {
+  position: relative;
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.errorMessageHere {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 18px;
+}
+.iconSetParent {
+  border-radius: var(--br-9xs);
+  background-color: var(--red-251);
+  overflow: hidden;
+  display: none;
+  flex-direction: row;
+  padding: var(--padding-9xs) var(--padding-5xs);
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  color: var(--red-1001);
+}
+.frame,
+.label {
+  position: absolute;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame {
+  width: 100%;
+  top: 9px;
+  right: 0;
+  left: 0;
+  flex-direction: column;
+  gap: var(--gap-5xs);
+}
+.label {
+  top: 0;
+  left: 12px;
+  border-radius: var(--br-5xs);
+  background-color: var(--white);
+  flex-direction: row;
+  padding: 0 var(--padding-9xs);
+  font-size: var(--typeface-nunito-sans-body-31-size);
+  color: var(--grey-dark-1501);
+}
+.textField {
+  height: 82px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.loginTheme,
+.selectTheLook,
+.textField {
+  align-self: stretch;
+  position: relative;
+}
+.selectTheLook {
+  line-height: 20px;
+  color: var(--secondary-iss-dark-blue-501);
+}
+.loginThemeParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.radioBtnChild {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  border-radius: var(--br-5xs);
+  background-color: var(--primary-persian-blue-1001);
+  width: 8px;
+  height: 8px;
+  overflow: hidden;
+}
+.radioBtn {
+  position: relative;
+  border-radius: var(--br-base);
+  border: 2px solid var(--primary-persian-blue-1001);
+  box-sizing: border-box;
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.title {
+  position: relative;
+  line-height: 20px;
+}
+.radioButton {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.typeInputDescription1 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 18px;
+  color: var(--secondary-iss-dark-blue-501);
+  display: none;
+}
+.textField1 {
+  width: 300px;
+  gap: var(--gap-5xs);
+}
+.radioButtonParent,
+.textField1,
+.textFieldWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.textFieldWrapper {
+  padding: 0 0 0 var(--padding-5xl);
+}
+.radioButtonParent {
+  gap: var(--gap-5xs);
+}
+.frameGroup,
+.frameWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frameGroup {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-xs);
+}
+.whereShouldBe {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 1496px;
+}
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--grey-light-501);
+  border: 1px solid var(--primary-persian-blue-1001);
+  box-sizing: border-box;
+  width: 120px;
+  height: 84px;
+}
+.frameItem {
+  position: absolute;
+  top: 22px;
+  left: 44px;
+  border-radius: var(--br-9xs);
+  background-color: var(--primary-persian-blue-1001);
+  width: 32px;
+  height: 40px;
+}
+.rectangleParent {
+  position: relative;
+  box-shadow: var(--card-shadow-011);
+  width: 120px;
+  height: 84px;
+  flex-shrink: 0;
+}
+.frameParent1,
+.radioButton1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.frameParent1 {
+  flex-direction: column;
+}
+.frameContainer,
+.frameDiv,
+.whereShouldBeTheLoginModaParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameDiv {
+  flex-direction: row;
+  gap: var(--gap-base);
+}
+.frameContainer,
+.whereShouldBeTheLoginModaParent {
+  flex-direction: column;
+}
+.whereShouldBeTheLoginModaParent {
+  gap: var(--gap-base);
+}
+.frameContainer {
+  align-self: stretch;
+}
+.loginPagePreview {
+  position: relative;
+}
+.login1Icon,
+.preview {
+  width: 923px;
+  height: 519.19px;
+}
+.login1Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+.preview {
+  position: relative;
+  border-radius: var(--br-5xs);
+  background-color: var(--grey-light-501);
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.loginPagePreviewParent {
+  align-self: stretch;
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.prefixIcon {
+  position: relative;
+  width: 12px;
+  height: 12px;
+  flex-shrink: 0;
+  overflow: hidden;
+  display: none;
+}
+.button1 {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 20px;
+}
+.suffixIcon {
+  position: relative;
+  width: 12px;
+  height: 12px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.button {
+  border-radius: var(--br-5xs);
+  background-color: var(--primary-persian-blue-1001);
+  height: 40px;
+  padding: var(--padding-xs) var(--padding-base);
+  box-sizing: border-box;
+  justify-content: center;
+  gap: var(--gap-xs);
+}
+.button,
+.button2,
+.buttonParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.button2 {
+  border-radius: var(--br-5xs);
+  height: 40px;
+  padding: var(--padding-xs) var(--padding-base);
+  box-sizing: border-box;
+  justify-content: center;
+  gap: var(--gap-xs);
+  color: var(--grey-dark-1001);
+}
+.buttonParent {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  color: var(--white);
+}
+.frameParent,
+.stepsclientMasteraddClientParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  align-self: stretch;
+  background-color: var(--white);
+  padding: var(--padding-5xl);
+  gap: var(--gap-5xl);
+}
+.stepsclientMasteraddClientParent {
+  position: absolute;
+  top: 92px;
+  left: 356px;
+  border-radius: var(--br-5xs);
+  box-shadow: var(--card-shadow-011);
+  width: 1544px;
+  overflow: hidden;
+}
+.pageTitle {
+  position: relative;
+  line-height: 120%;
+  font-weight: 800;
+}
+.standardBreadcrumb {
+  position: relative;
+  letter-spacing: 0.01em;
+}
+.breadcrumb,
+.breadcrumb1,
+.currentPage {
+  background-color: var(--other-clickable);
+  flex-direction: row;
+  align-items: center;
+}
+.breadcrumb {
+  display: flex;
+  justify-content: flex-start;
+}
+.breadcrumb1,
+.currentPage {
+  gap: var(--gap-5xs);
+}
+.breadcrumb1 {
+  display: flex;
+  justify-content: flex-start;
+}
+.currentPage {
+  color: var(--secondary-iss-dark-blue-501);
+}
+.breadcrumbs,
+.currentPage,
+.right {
+  display: flex;
+  justify-content: flex-start;
+}
+.breadcrumbs {
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-5xs);
+  text-align: center;
+  font-size: var(--typeface-nunito-sans-body-31-size);
+}
+.right {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-9xs);
+  font-size: var(--typeface-nunito-sans-headline-h5-size);
+}
+.button4 {
+  border-radius: var(--br-5xs);
+  background-color: var(--primary-persian-blue-501);
+  height: 40px;
+  display: flex;
+  padding: var(--padding-xs) var(--padding-base);
+  box-sizing: border-box;
+  justify-content: center;
+}
+.button4,
+.button6,
+.leftCtas {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-xs);
+}
+.button6 {
+  border-radius: var(--br-5xs);
+  background-color: var(--primary-persian-blue-1001);
+  box-shadow: var(--card-shadow-02);
+  height: 40px;
+  display: flex;
+  padding: var(--padding-xs) var(--padding-base);
+  box-sizing: border-box;
+  justify-content: center;
+  color: var(--white);
+}
+.leftCtas {
+  align-self: stretch;
+  display: none;
+  justify-content: flex-start;
+  color: var(--primary-persian-blue-1001);
+}
+.radioBtn2 {
+  position: relative;
+  border-radius: var(--br-base);
+  border: 2px solid var(--grey-light-1001);
+  box-sizing: border-box;
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.listItem,
+.radioButton2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.radioButton2 {
+  justify-content: flex-start;
+}
+.listItem {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  background-color: var(--white);
+  padding: var(--padding-5xs) var(--padding-base);
+}
+.list,
+.listItem,
+.listItem8 {
+  overflow: hidden;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.listItem8 {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  background-color: var(--white);
+  display: none;
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-base);
+  align-items: center;
+}
+.list {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-5xs);
+  align-items: flex-start;
+}
+.scrollBar {
+  position: relative;
+  border-radius: var(--br-7xs);
+  background-color: var(--grey-dark-50);
+  width: 6px;
+  height: 100px;
+  flex-shrink: 0;
+}
+.menu,
+.scroll {
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.scroll {
+  align-self: stretch;
+  padding: var(--padding-5xs);
+  justify-content: center;
+}
+.menu {
+  border-radius: var(--br-5xs);
+  background-color: var(--white);
+  box-shadow: var(--card-shadow-041);
+  width: 300px;
+  overflow: hidden;
+  justify-content: flex-start;
+}
+.suffixIcon4 {
+  position: relative;
+  width: 10px;
+  height: 10px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.button8,
+.dropDownButton,
+.dropDownButton1 {
+  flex-shrink: 0;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.button8 {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  border: 1px solid var(--grey-light-1001);
+  box-sizing: border-box;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-base);
+  align-items: center;
+  color: var(--grey-dark-1501);
+}
+.dropDownButton,
+.dropDownButton1 {
+  width: 160px;
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.dropDownButton1 {
+  align-items: flex-end;
+}
+.button12,
+.header,
+.leftSiteComplex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.button12 {
+  border-radius: var(--br-5xs);
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  padding: var(--padding-xs) var(--padding-xl);
+  box-sizing: border-box;
+  justify-content: center;
+}
+.header,
+.leftSiteComplex {
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.header {
+  position: absolute;
+  top: 20px;
+  left: 356px;
+  width: 1544px;
+  gap: var(--gap-xl);
+}
+.adminPanelclientMasteradd {
+  position: relative;
+  background-color: var(--primary-persian-blue-25);
+  width: 100%;
+  height: 1080px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--typeface-nunito-sans-caption1-size);
+  color: var(--secondary-iss-dark-blue-1001);
+  font-family: var(--typeface-nunito-sans-subtitle-11);
+}

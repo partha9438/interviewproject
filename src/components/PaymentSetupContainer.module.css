@@ -1,0 +1,454 @@
+.paymentSetup,
+.setUpPayments {
+  align-self: stretch;
+  position: relative;
+  line-height: 120%;
+}
+.setUpPayments {
+  font-size: var(--typeface-nunito-sans-caption1-size);
+  line-height: 20px;
+  color: var(--secondary-iss-dark-blue-501);
+}
+.paymentSetupParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  font-size: var(--typeface-nunito-sans-headline-h6-size);
+}
+.iconSet {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  overflow: hidden;
+  display: none;
+}
+.span {
+  color: var(--red-1001);
+}
+.input,
+.label {
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+}
+.input {
+  text-align: right;
+  display: none;
+}
+.inputField {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  background-color: var(--white);
+  border: 1px solid var(--grey-light-1001);
+  box-sizing: border-box;
+  height: 48px;
+  flex-shrink: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-base);
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.typeInputDescription {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 18px;
+  color: var(--secondary-iss-dark-blue-501);
+  display: none;
+}
+.iconSet2 {
+  position: relative;
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.errorMessageHere {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 18px;
+}
+.error,
+.textField {
+  justify-content: flex-start;
+}
+.error {
+  border-radius: var(--br-9xs);
+  background-color: var(--red-251);
+  overflow: hidden;
+  display: none;
+  flex-direction: row;
+  padding: var(--padding-9xs) var(--padding-5xs);
+  align-items: center;
+  gap: var(--gap-9xs);
+  color: var(--red-1001);
+}
+.textField {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-5xs) 0 0;
+  align-items: flex-start;
+  gap: var(--gap-5xs);
+}
+.iconSet3,
+.input1 {
+  position: relative;
+  display: none;
+}
+.iconSet3 {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.input1 {
+  flex: 1;
+  font-size: var(--typeface-nunito-sans-subtitle-21-size);
+  letter-spacing: 0.01em;
+  color: var(--secondary-iss-dark-blue-1001);
+}
+.iconSet4,
+.radioBtn {
+  position: relative;
+  width: 10px;
+  height: 10px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.radioBtn {
+  border-radius: var(--br-base);
+  border: 2px solid var(--grey-light-1001);
+  box-sizing: border-box;
+  width: 16px;
+  height: 16px;
+}
+.list,
+.listItem,
+.radioButton {
+  display: flex;
+  justify-content: flex-start;
+}
+.radioButton {
+  flex-direction: row;
+  align-items: center;
+}
+.list,
+.listItem {
+  overflow: hidden;
+  gap: var(--gap-5xs);
+}
+.listItem {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  background-color: var(--white);
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-base);
+  align-items: center;
+}
+.list {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-5xs);
+  align-items: flex-start;
+}
+.scrollBar {
+  position: relative;
+  border-radius: var(--br-7xs);
+  background-color: var(--grey-dark-50);
+  width: 6px;
+  height: 100px;
+  flex-shrink: 0;
+}
+.menu,
+.scroll {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.scroll {
+  display: flex;
+  padding: var(--padding-5xs);
+  justify-content: center;
+}
+.menu {
+  border-radius: var(--br-5xs);
+  background-color: var(--white);
+  box-shadow: var(--card-shadow-041);
+  overflow: hidden;
+  display: none;
+  justify-content: flex-start;
+  color: var(--secondary-iss-dark-blue-1001);
+}
+.dropDownInput,
+.dropDownInput1 {
+  flex-direction: column;
+  padding: var(--padding-5xs) 0 0;
+  gap: var(--gap-5xs);
+}
+.dropDownInput {
+  width: 738px;
+  flex-shrink: 0;
+  display: flex;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.dropDownInput1 {
+  flex: 1;
+}
+.dropDownInput1,
+.dropDownInputParent,
+.textField1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.textField1 {
+  width: 200px;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: var(--padding-5xs) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+}
+.dropDownInputParent {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-base);
+}
+.payableAmountPer {
+  color: var(--grey-dark-1501);
+}
+.inputFieldChild {
+  align-self: stretch;
+  border-right: 1px solid var(--grey-light-501);
+  box-sizing: border-box;
+  width: 1px;
+  flex-shrink: 0;
+}
+.input5,
+.inputFieldChild,
+.total {
+  position: relative;
+}
+.total {
+  line-height: 20px;
+  color: var(--grey-dark-1501);
+}
+.input5 {
+  flex: 1;
+  font-size: var(--typeface-nunito-sans-subtitle-21-size);
+  letter-spacing: 0.01em;
+  display: none;
+}
+.dropDownInputGroup,
+.inputField5,
+.textField2 {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.inputField5 {
+  border-radius: var(--br-5xs);
+  background-color: var(--white);
+  border: 1px solid var(--grey-light-751);
+  box-sizing: border-box;
+  height: 48px;
+  flex-shrink: 0;
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-base);
+  align-items: center;
+  gap: var(--gap-xs);
+}
+.dropDownInputGroup,
+.textField2 {
+  align-items: flex-start;
+}
+.textField2 {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-5xs) 0 0;
+  gap: var(--gap-5xs);
+  color: var(--secondary-iss-dark-blue-1001);
+}
+.dropDownInputGroup {
+  flex-direction: row;
+  gap: var(--gap-xl);
+}
+.input6 {
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+  color: var(--grey-dark-1501);
+  text-align: right;
+  display: none;
+}
+.textField3 {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-5xs) 0 0;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.rs0000001,
+.totalPayableAmount {
+  position: relative;
+  letter-spacing: 0.01em;
+}
+.rs0000001 {
+  flex: 1;
+  text-align: right;
+  color: var(--secondary-iss-dark-blue-1001);
+}
+.textField4 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-5xs) 0 0;
+  align-items: flex-start;
+  font-size: var(--typeface-nunito-sans-subtitle-21-size);
+  color: var(--grey-dark-1501);
+}
+.textField4,
+.textFieldGroup,
+.textFieldParent {
+  align-self: stretch;
+  justify-content: flex-start;
+}
+.textFieldGroup {
+  height: 56px;
+  flex-shrink: 0;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-xl);
+  color: var(--secondary-iss-dark-blue-1001);
+}
+.textFieldParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-5xs);
+  color: var(--grey-dark-1501);
+}
+.paymentMode {
+  align-self: stretch;
+  position: relative;
+}
+.checkBox1 {
+  position: relative;
+  border-radius: var(--br-9xs);
+  border: 2px solid var(--grey-light-1001);
+  box-sizing: border-box;
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.title {
+  position: relative;
+  line-height: 20px;
+}
+.checkBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.checkBoxParent {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-5xl);
+}
+.checkBoxParent,
+.paymentModeParent,
+.radioButtonParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.paymentModeParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-xs);
+}
+.radioButtonParent {
+  flex-direction: row;
+  gap: var(--gap-5xl);
+}
+.prefixIcon {
+  position: relative;
+  width: 12px;
+  height: 12px;
+  flex-shrink: 0;
+  overflow: hidden;
+  display: none;
+}
+.button1 {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 20px;
+}
+.suffixIcon {
+  position: relative;
+  width: 12px;
+  height: 12px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.button {
+  border-radius: var(--br-5xs);
+  background-color: var(--primary-persian-blue-1001);
+  height: 40px;
+  padding: var(--padding-xs) var(--padding-base);
+  box-sizing: border-box;
+  justify-content: center;
+  gap: var(--gap-xs);
+}
+.button,
+.button2,
+.buttonParent,
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.button2 {
+  border-radius: var(--br-5xs);
+  height: 40px;
+  padding: var(--padding-xs) var(--padding-base);
+  box-sizing: border-box;
+  justify-content: center;
+  gap: var(--gap-xs);
+  color: var(--secondary-iss-dark-blue-501);
+}
+.buttonParent,
+.frameParent {
+  align-self: stretch;
+  padding: var(--padding-5xs) 0 0;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  color: var(--white);
+}
+.frameParent {
+  background-color: var(--white);
+  flex-direction: column;
+  padding: var(--padding-5xl);
+  align-items: flex-start;
+  text-align: left;
+  font-size: var(--typeface-nunito-sans-caption1-size);
+  color: var(--secondary-iss-dark-blue-1001);
+  font-family: var(--typeface-nunito-sans-subtitle-11);
+}
